@@ -60,4 +60,8 @@ class User extends Authenticatable implements OAuthenticatable
     {
         return $this->hasMany(Account::class);
     }
+    public function portfolios()
+    {
+        return $this->hasMany(Portfolio::class);
+    }
 }
