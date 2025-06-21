@@ -10,8 +10,6 @@ class Theme extends Model
 {
     use HasFactory, HasUuids;
 
-    protected $table = 'themes';
-
     protected $fillable = [
         'name',
         'slug',

@@ -10,8 +10,6 @@ class Phone extends Model
 {
     use HasFactory, HasUuids;
 
-    protected $table = 'phones';
-
     protected $fillable = [
         'user_id',
         'phone',

@@ -10,8 +10,6 @@ class Email extends Model
 {
     use HasFactory, HasUuids;
 
-    protected $table = 'emails';
-
     protected $fillable = [
         'user_id',
         'email',

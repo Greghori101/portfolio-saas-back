@@ -10,8 +10,6 @@ class Skill extends Model
 {
     use HasFactory, HasUuids;
 
-    protected $table = 'skills';
-
     protected $fillable = [
         'portfolio_id',
         'name',

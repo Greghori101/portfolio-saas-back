@@ -10,8 +10,6 @@ class Certificate extends Model
 {
     use HasFactory, HasUuids;
 
-    protected $table = 'certificates';
-
     protected $fillable = [
         'portfolio_id',
         'title',

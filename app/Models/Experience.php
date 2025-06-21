@@ -12,8 +12,6 @@ class Experience extends Model implements HasMedia
 {
     use HasFactory, HasUuids, InteractsWithMedia;
 
-    protected $table = 'experiences';
-
     protected $fillable = [
         'portfolio_id',
         'company',

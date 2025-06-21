@@ -10,8 +10,6 @@ class Testimonial extends Model
 {
     use HasFactory, HasUuids;
 
-    protected $table = 'testimonials';
-
     protected $fillable = [
         'portfolio_id',
         'author',

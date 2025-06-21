@@ -10,8 +10,6 @@ class Account extends Model
 {
     use HasFactory, HasUuids;
 
-    protected $table = 'accounts';
-
     protected $fillable = [
         'user_id',
         'provider',

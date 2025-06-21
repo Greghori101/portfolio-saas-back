@@ -10,8 +10,6 @@ class Link extends Model
 {
     use HasFactory, HasUuids;
 
-    protected $table = 'links';
-
     protected $fillable = [
         'portfolio_id',
         'platform',

@@ -10,8 +10,6 @@ class Service extends Model
 {
     use HasFactory, HasUuids;
 
-    protected $table = 'services';
-
     protected $fillable = [
         'portfolio_id',
         'title',

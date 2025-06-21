@@ -10,8 +10,6 @@ class Portfolio extends Model
 {
     use HasFactory, HasUuids;
 
-    protected $table = 'portfolios';
-
     protected $fillable = [
         'user_id',
         'name',

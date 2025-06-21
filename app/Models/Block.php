@@ -10,8 +10,6 @@ class Block extends Model
 {
     use HasFactory, HasUuids;
 
-    protected $table = 'blocks';
-
     protected $fillable = [
         'portfolio_id',
         'type',

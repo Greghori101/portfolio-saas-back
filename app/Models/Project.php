@@ -12,8 +12,6 @@ class Project extends Model implements HasMedia
 {
     use HasFactory, HasUuids, InteractsWithMedia;
 
-    protected $table = 'projects';
-
     protected $fillable = [
         'portfolio_id',
         'title',

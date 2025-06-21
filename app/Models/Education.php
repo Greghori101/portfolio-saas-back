@@ -10,8 +10,6 @@ class Education extends Model
 {
     use HasFactory, HasUuids;
 
-    protected $table = 'education'; // keep this as-is if you prefer, but consider renaming to 'educations'
-
     protected $fillable = [
         'portfolio_id',
         'institution',
