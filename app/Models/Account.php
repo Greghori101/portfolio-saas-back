@@ -21,7 +21,7 @@ class Account extends Model
     ];
 
     protected $casts = [
-        'expires_at' => 'integer',
+        'expires_at' => 'date',
     ];
 
     public function user()
